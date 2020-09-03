@@ -1,0 +1,11 @@
+@import "../sass/variables.scss";
+
+@mixin display-padrao {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin font-padrao{
+    color:$color-secundaria;
+    font-family: $font-padrao;
+}
