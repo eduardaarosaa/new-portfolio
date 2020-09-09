@@ -19,7 +19,7 @@
 }
 .coluna-lateral{
   width: 300px;
-  height: 753px;
+  height: auto;
   background-color: $color-padrao;
   @include display-padrao;
   justify-content: center;
@@ -168,6 +168,7 @@ a .style-ver{
 
 .timeline{
   margin-left: 22%;
+  margin-bottom: 3%;
 
 }
 .secondy-row{
@@ -201,6 +202,7 @@ a .style-ver{
   color: $color-gray;
   width: 400px;
   padding: 10px;
+  margin: 10px;
 
 }
 .assinatura{
@@ -211,4 +213,8 @@ a .style-ver{
   margin-left: 5px;
   margin-top: -50px;
 
+}
+.cards{
+  display: flex;
+  width: 1000px;
 }
